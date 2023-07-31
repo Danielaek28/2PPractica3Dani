@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">practica6</string>
+    <string name="Titulo">Programas</string>
+    <string name="titulo2">REGISTRO</string>
+    <string name="contenido">Esta aplicacion es de contenido familiar, para que desde cualquier edad disfrute de nuestros progamas</string>
+    <string name="btn1">Registro</string>
+    <string name="btn2">Prueba Gratis</string>
+    <string name="btn3">Salir</string>
+    <string name="Edit_1">teclea tu nombre</string>
+    <string name="txv_nombre">Nombre:</string>
+    <string name="Edit_2">teclea tu Edad</string>
+    <string name="txv_edad">Edad:</string>
+    <string name="Edit_3">Selecciona tu Genero</string>
+    <string name="rd_hombre">Masculino</string>
+    <string name="rd_mujer">Femenina</string>
+    <string name="btn4">Registrarse</string>
+    <string name="btn5">regresar</string>
+    <string name="bienvenida">Bienvenida</string>
+    <string name="categoria">CATEGORIA DE PROGRAMAS</string>
+
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5907C3DF"
+    tools:context=".paginaprincipal">
+
+    <TextView
+        android:id="@+id/bien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADC51162"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/bienvenida"
+        android:textColor="#0B0505"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bien"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/categoria"
+        android:textColor="#0B0505"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoria"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:textSize="25dp">
+
+        <ImageView
+            android:id="@+id/caricatura"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/caricatura"/>
+        <ImageView
+            android:id="@+id/accion"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/accion"/>
+
+        <ImageView
+            android:id="@+id/terror"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/terror"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textSize="20dp">
+    <Button
+        android:id="@+id/salir2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn3"
+        />
+    <Button
+        android:id="@+id/registro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn4"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
