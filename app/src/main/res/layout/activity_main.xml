@@ -46,12 +46,6 @@
             android:layout_marginTop="35dp"
             android:text="@string/btn1" />
 
-        <Button
-            android:id="@+id/pruebagratis"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="35dp"
-            android:text="@string/btn2" />
 
 
     </LinearLayout>

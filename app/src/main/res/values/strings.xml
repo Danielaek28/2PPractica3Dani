@@ -3,7 +3,7 @@
     <string name="Titulo">Programas</string>
     <string name="titulo2">REGISTRO</string>
     <string name="contenido">Esta aplicacion es de contenido familiar, para que desde cualquier edad disfrute de nuestros progamas</string>
-    <string name="btn1">Registro</string>
+    <string name="btn1">Menú</string>
     <string name="btn2">Prueba Gratis</string>
     <string name="btn3">Salir</string>
     <string name="Edit_1">teclea tu nombre</string>
@@ -17,7 +17,8 @@
     <string name="btn5">regresar</string>
     <string name="bienvenida">Bienvenida</string>
     <string name="categoria">CATEGORIA DE PROGRAMAS</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
